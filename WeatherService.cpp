@@ -1,6 +1,9 @@
 ﻿#include <iostream>
+#include <clocale>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	setlocale(LC_CTYPE, "rus");
+
 }
